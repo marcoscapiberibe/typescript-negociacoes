@@ -1,0 +1,2 @@
+# typescript-negociacoes
+ TypeScript - Negociações
