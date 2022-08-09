@@ -1,2 +1,3 @@
-# typescript-negociacoes
+# TypeScript negociações / Alura
+
  TypeScript - Negociações
