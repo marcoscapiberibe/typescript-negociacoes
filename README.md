@@ -1,6 +1,6 @@
-# Aplicação de negociações desenvolvida com TyoeScript
+# Aplicação de negociações desenvolvida com TypeScript
 
-Aplicação de negociações, modelagem e regras desenvolvida com TyoeScript.
+Aplicação de negociações, modelagem e regras desenvolvida com TypeScript.
 
 
 # Sobre o projeto
