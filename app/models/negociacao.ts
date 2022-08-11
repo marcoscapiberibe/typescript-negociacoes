@@ -7,7 +7,7 @@ export class Negociacao {
         // private _data: Date, 
         // private _quantidade: number,  <-- Mesma coisa que: 
         // private _valor: number) {} 
-        public readonly data: Date, 
+        private _data: Date, 
         public readonly quantidade: number, 
         public readonly valor: number) {}
     //     {
@@ -31,4 +31,10 @@ export class Negociacao {
     get volume(): number {
         return this.quantidade * this.valor;
     }
+
+    get data(): Date {
+        const data = new Date(this._data.getTime()); // Programação Defensiva
+        return this._data;
+    }
+
 }
